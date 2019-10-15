@@ -1,18 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <Button
+        android:id="@+id/act1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="act1" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/act2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="act2" />
+
+    <Button
+        android:id="@+id/act3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="act3" />
+
+    <Button
+        android:id="@+id/act4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="act4" />
+
+    <Button
+        android:id="@+id/act5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="act5" />
+
+    <Button
+        android:id="@+id/act6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="act6" />
+
+    <Button
+        android:id="@+id/act7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="act7" />
+
+    <Button
+        android:id="@+id/act8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="act8" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subject">
+        <item>英语</item>
+        <item>政治</item>
+        <item>高等数学</item>
+        <item>概率论</item>
+        <item>大学体育</item>
+        <item>母猪的产后护理</item>
+    </string-array>
+    <string-array name="academy">
+        <item>计算机科学与技术学院</item>
+        <item>理学院</item>
+        <item>外国语学院</item>
+        <item>商学院</item>
+        <item>农学院</item>
+    </string-array>
+</resources>

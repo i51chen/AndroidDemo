@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArrayAdapterActivity">
+
+    <LinearLayout
+        android:id="@+id/sidebar"
+        android:layout_width="100dp"
+        android:layout_height="500dp">
+
+        <ListView
+            android:id="@+id/sideLw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/academy">
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contacts"
+        android:layout_toRightOf="@id/sidebar"
+        android:layout_width="300dp"
+        android:layout_height="450dp">
+
+        <ListView
+            android:id="@+id/lw1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+</RelativeLayout>

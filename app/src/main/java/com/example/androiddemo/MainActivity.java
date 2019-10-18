@@ -6,10 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import java.util.ArrayList;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    public int[] idArray = {R.id.act1, R.id.act2, R.id.act3, R.id.act4, R.id.act5, R.id.act6, R.id.act7, R.id.act8};
+    public int[] idArray = {R.id.act0,R.id.act1, R.id.act2, R.id.act3, R.id.act4, R.id.act5, R.id.act6, R.id.act7, R.id.act8};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +23,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if (v.getId() == idArray[0]) {
+            Intent intent = new Intent(MainActivity.this, ArrayAdapterActivity.class);
+            startActivity(intent);
+        }
+        if (v.getId() == idArray[1]) {
             Intent intent = new Intent(MainActivity.this, act1.class);
             startActivity(intent);
         }
+        if (v.getId() == idArray[2]) {
+            Intent intent = new Intent(MainActivity.this, act2.class);
+            startActivity(intent);
+        }
+
     }
 }

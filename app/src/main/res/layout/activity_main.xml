@@ -9,6 +9,13 @@
 
 
     <Button
+        android:id="@+id/act0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ArrayAdapter"
+        android:textAllCaps="false"/>
+
+    <Button
         android:id="@+id/act1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +25,9 @@
         android:id="@+id/act2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="act2" />
+        android:textAllCaps="false"
+        android:text="SimpleAdapter" />
+
 
     <Button
         android:id="@+id/act3"

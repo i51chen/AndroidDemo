@@ -36,6 +36,7 @@ public class act2 extends AppCompatActivity {
             lists.add(map);
 
         }
+        //显示页面用一个ListView，新建样式页面（list_item.xml）设置样式
         adapter = new SimpleAdapter(this, lists, R.layout.list_item,
                 new String[]{"image", "theme", "content"},
                 new int[]{R.id.personal_logo, R.id.text1, R.id.text2});

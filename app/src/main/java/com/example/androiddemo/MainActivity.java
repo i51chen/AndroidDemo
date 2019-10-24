@@ -1,6 +1,7 @@
 package com.example.androiddemo;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -34,6 +35,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(MainActivity.this, act2.class);
             startActivity(intent);
         }
+        if (v.getId() == idArray[3]) {
+            Intent intent = new Intent(MainActivity.this, act3.class);
+            startActivity(intent);
+        }
+
 
     }
 }

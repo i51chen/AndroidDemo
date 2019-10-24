@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AndroidDemo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragmentContent">
+        这是一个framgment案例，静态创建，首先新建一个xml布局资源文件，里面存放fragment的显示内容，
+        然后新建一个类继承Fragment，实现父类中onCreateView方法，返回的是一个View，在其他的布局文
+        件中使用 &lt;fragment/&gt; 标签，其中必须使用name属性，且值必须是前文所声明的全包名路径fragment类
+</string>
 </resources>

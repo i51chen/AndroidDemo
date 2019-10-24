@@ -11,4 +11,5 @@ public class act3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_act3);
     }
+
 }

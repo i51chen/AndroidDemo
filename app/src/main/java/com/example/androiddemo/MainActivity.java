@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    public int[] idArray = {R.id.act0,R.id.act1, R.id.act2, R.id.act3, R.id.act4, R.id.act5, R.id.act6, R.id.act7, R.id.act8};
+    public int[] idArray = {R.id.act0, R.id.act1, R.id.act2, R.id.act3, R.id.act4, R.id.act5, R.id.act6, R.id.act7, R.id.act8};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +39,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(MainActivity.this, act3.class);
             startActivity(intent);
         }
-
+        if (v.getId() == idArray[4]) {
+            Intent intent = new Intent(MainActivity.this, act4.class);
+            startActivity(intent);
+        }
+        if (v.getId() == idArray[5]) {
+            Intent intent = new Intent(MainActivity.this, act5Login.class);
+            startActivity(intent);
+        }
 
     }
 }

@@ -4,26 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="4"
+    android:orientation="horizontal"
+    >
     <Button
         android:id="@+id/act0"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="ArrayAdapter"
         android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/act1"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="act1" />
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textAllCaps="false"
+        android:text="spinner" />
 
     <Button
         android:id="@+id/act2"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:text="SimpleAdapter" />
@@ -31,39 +41,40 @@
 
     <Button
         android:id="@+id/act3"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:text="fragment" />
 
     <Button
         android:id="@+id/act4"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="act4" />
 
     <Button
         android:id="@+id/act5"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:text="act5" />
+        android:textAllCaps="false"
+        android:text="程序入口" />
 
     <Button
         android:id="@+id/act6"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="act6" />
 
     <Button
         android:id="@+id/act7"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="act7" />
 
     <Button
         android:id="@+id/act8"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="act8" />
-
+</GridLayout>
 </LinearLayout>

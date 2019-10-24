@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/personal_logo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_margin="5dp"
         android:background="@drawable/ic_launcher_background"
         android:src="@drawable/ic_launcher_foreground" />
@@ -19,9 +19,8 @@
     <LinearLayout
         android:id="@+id/ll2"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
         android:orientation="vertical">
 
         <TextView
@@ -31,12 +30,6 @@
             android:layout_marginTop="10dp"
             android:textSize="30sp" />
 
-        <TextView
-            android:id="@+id/text2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textSize="24sp" />
     </LinearLayout>
 
 </LinearLayout>

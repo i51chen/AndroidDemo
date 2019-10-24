@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".act3"></activity>
+        <activity android:name=".act5Login"></activity>
+        <activity android:name=".act4" />
+        <activity android:name=".act3" />
         <activity android:name=".act2" />
         <activity android:name=".act1" />
         <activity android:name=".ArrayAdapterActivity" />

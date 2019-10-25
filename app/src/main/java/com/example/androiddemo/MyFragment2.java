@@ -37,7 +37,7 @@ public class MyFragment2 extends Fragment {
     //定义数据
 
     private String[] theme = {"妈", "表弟", "朱一旦", "马化腾", "马云"};
-    private int[] imageViews = {R.mipmap.ic_launcher, R.mipmap.ball, R.mipmap.ball, R.mipmap.ball,R.mipmap.ball};
+    private int[] imageViews = {R.mipmap.ic_launcher, R.mipmap.ball, R.mipmap.ball, R.drawable.mht,R.mipmap.ball};
 
 
     @Override
